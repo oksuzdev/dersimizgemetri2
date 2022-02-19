@@ -655,7 +655,7 @@ h4 {
 }
 
 .first-content {
-  background-image: url("../img/banner.webp");
+  background-image: url("https://cdn.jsdelivr.net/gh/oksuzdev/dersimizgeometri@master/img/banner.webp");
   padding: 250px 0;
   background-position: center;
   background-size: cover;
@@ -905,7 +905,7 @@ h4 {
 /* parallax */
 .fourth-content {
   padding: 70px 0;
-  background-image: url("../img/parallax.webp");
+  background-image: url("https://cdn.jsdelivr.net/gh/oksuzdev/dersimizgeometri@master/img/parallax.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
