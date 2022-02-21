@@ -1555,7 +1555,7 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
   /* navicon */
   .nav-icon-1 {
     width: 30px;
