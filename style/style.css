@@ -921,6 +921,13 @@ h4 {
 
 /* wordpres stil değişkenleri */
 
+/* wordpres stil değişkenleri */
+
+.buy-button::before,.buy-button::after{
+  display: none !important;
+}
+
+
 main h1 {
   font-size: 34px !important;
 }
