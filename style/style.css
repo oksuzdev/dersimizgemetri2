@@ -88,17 +88,31 @@ h4 {
 .nav-main {
   width: 100%;
   position: fixed;
-  top: 0;
+  top: 10px;
   left: 0;
   z-index: 3;
   padding: 20px 0;
   transition: all 0.2s ease;
 }
 
+/* dil eklentisi */
+
+.lang-button{
+  margin-left: 15px;
+}
+
+.lang-button i{
+  font-size: 17px;
+}
+.lang-button a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .nav-main-right {
   margin-top: -5px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .nav-main-right > nav > ul {
@@ -522,12 +536,18 @@ h4 {
 
 .logo img {
   width: 100%;
+  object-fit: contain;
 }
 
 .nav-fixed {
   padding: 0px 0;
   background-color: #fff;
   border-bottom: 2px solid #efefef;
+  top: 0;
+}
+
+.nav-fixed .lang-button a{
+  color: #111 !important;
 }
 
 .nav-fixed .logo {
@@ -571,7 +591,7 @@ h4 {
   line-height: 120px;
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 30px;
-  background-image: url("https://cdn.jsdelivr.net/gh/oksuzdev/dersimizgeometri@master/img/card-img.webp");
+  background-image: url("../img/card-img.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -655,7 +675,7 @@ h4 {
 }
 
 .first-content {
-  background-image: url("https://cdn.jsdelivr.net/gh/oksuzdev/dersimizgeometri@master/img/banner.webp");
+  background-image: url("../img/banner.webp");
   padding: 250px 0;
   background-position: center;
   background-size: cover;
@@ -905,7 +925,7 @@ h4 {
 /* parallax */
 .fourth-content {
   padding: 70px 0;
-  background-image: url("https://cdn.jsdelivr.net/gh/oksuzdev/dersimizgeometri@master/img/parallax.webp");
+  background-image: url("../img/parallax.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -921,12 +941,9 @@ h4 {
 
 /* wordpres stil değişkenleri */
 
-/* wordpres stil değişkenleri */
-
 .buy-button .wp-block-button__link::before,.buy-button .wp-block-button__link::after{
   display: none !important;
 }
-
 
 main h1 {
   font-size: 34px !important;
@@ -1298,6 +1315,10 @@ main h4 {
     top: 0;
     margin-top: 10px;
   }
+
+  .konten{width: 90%;}
+  .kontenf{width: 90%;}
+
 }
 .says {
   display: none;
@@ -1710,8 +1731,15 @@ footer {
   .nav-fixed .nav-main-right > nav > ul {
     top: 81px;
   }
+
+  
   .nav-fixed .nav-main-right > nav > ul > li:first-child > a {
     border-top: 2px solid #4ec4ef;
+  }
+
+  /* lang  button */
+  .lang-button{
+    transform: translateY(12px);
   }
 
   /* mobil menu sub menu */
