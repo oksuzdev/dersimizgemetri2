@@ -923,7 +923,7 @@ h4 {
 
 /* wordpres stil değişkenleri */
 
-.buy-button a::before,.buy-button a::after{
+.buy-button .wp-block-button__link::before,.buy-button .wp-block-button__link::after{
   display: none !important;
 }
 
