@@ -923,7 +923,7 @@ h4 {
 
 /* wordpres stil değişkenleri */
 
-.buy-button::before,.buy-button::after{
+.buy-button a::before,.buy-button a::after{
   display: none !important;
 }
 
